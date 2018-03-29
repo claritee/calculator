@@ -18,3 +18,32 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## App Metrics
+
+localhost:4000/metrics
+
+## Docker
+
+Example: https://github.com/alexellis/quickstart-prometheus
+
+
+## Prometheus
+
+URLs
+
+- localhost:9090/graph
+- localhost:9090/metrics
+
+Tutorial: https://aldusleaf.org/2016-09-30-monitoring-elixir-apps-in-2016-prometheus-and-grafana.html
+
+Plugs: https://github.com/deadtrickster/prometheus-plugs
+
+## Grafana
+
+login: admin/admin
+
+Setup Repo:
+
+- http://localhost:9090
+- Direct

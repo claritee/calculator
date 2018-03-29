@@ -38,6 +38,9 @@ defmodule CalculatorWeb.Endpoint do
     key: "_calculator_key",
     signing_salt: "4LFj6Rbv"
 
+  plug Calculator.PrometheusExporter
+  plug Calculator.PipelineInstrumenter
+
   plug CalculatorWeb.Router
 
   @doc """
